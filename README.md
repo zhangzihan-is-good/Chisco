@@ -1,7 +1,7 @@
 # Chisco 
 This repo is the implementation for "**Chisco: An EEG-based BCI Dataset for Semantic Reconstruction of Imagined Speech**".
 
-The code has been publicly available, and their usage methods have been pointed out in the paper and will be made public here in the future.
+The code has been made publicly available, and the remaining details are outlined in the paper. These details will be disclosed here following the publisher's revisions and the finalization of the manuscript, in accordance with the editor's recommendations.
 ## Abstract
 
 
