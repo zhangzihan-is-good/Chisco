@@ -65,7 +65,7 @@ print(args)
 try:
     root_folder = '/' # default to “/”, you can change it to the path of the root folder of the dataset
     word_list_folder = os.path.join(root_folder, 'Chisco/textdataset')
-    montage_file = '/home/ybao/imagine_speech_proj/set_new_reversed.csv'
+    montage_file = 'montage.csv'
     IC_NUM = 30
     PATCH = False 
 
