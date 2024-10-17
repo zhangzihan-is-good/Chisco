@@ -3,4 +3,6 @@ This repo is the implementation for "**Chisco: An EEG-based BCI Dataset for Sema
 
 The details about the code were mentioned in the paper. 
 
-In addition, chisco 1.1 is on its way. In addition to the 3 subjects mentioned in the paper, we have added data from more subjects and used the same experimental paradigm. After the preprocessing is completed, we will put the data links here.
+Chisco 1.1 is on its way. In addition to the 3 participants mentioned in the manuscript, we have now identified 5 more suitable participants. Data from some participants are currently being processed, while data collection is ongoing for others. This will bring the total EEG recording time to 120 hours, making it the largest neural language decoding datasets to date. We invite you to stay tuned for further developments in our work! The analysis of the additional dataset will be provided as a supplement to the original manuscript and made available here.
+
+
