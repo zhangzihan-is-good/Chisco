@@ -8,6 +8,25 @@ The rapid advancement of deep learning has enabled Brain-Computer Interfaces (BC
 ## **Supplements**
 In addition to the three participants mentioned in the paper, we collected and validated data from two additional participants. The data were acquired using the same experimental paradigm and are accessible via the same Chisco link.
 
+## **Reproducing the Paper Results**
+
+To reproduce the results from the paper, please follow the configurations provided below:
+
+### **Model Configuration：**
+python -u EEGclassify.py --rand_guess 0 --lr1 5e-4 --epoch 100 --layer 1 --pooling mean --dataset imagine_decode --sub "01" --cls 39 --dropout1 0.5 --dropout2 0.5 --feel1 20 --feel2 10 --subset_ratio 1
+
+### **SBATCH Parameters:**
+We ran our code on a SLURM cluster server. The following details may not be critical for reproducing the results presented in the paper, but they are provided here for reference if needed.
+```bash
+#!/bin/zsh
+#SBATCH -p compute 
+#SBATCH -N 1                                  # Request 1 node
+#SBATCH --ntasks-per-node=1                   # 1 process per node
+#SBATCH --cpus-per-task=4                     # Use 4 CPU cores per task
+#SBATCH --gres=gpu:a100-pcie-40gb:1           # Request 1 A100 GPU
+#SBATCH --mem=100G                            # Allocate 100GB memory
+source ~/.zshrc
+
 ## **Citation**
 
 ```bibtex
