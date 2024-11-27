@@ -13,8 +13,9 @@ In addition to the three participants mentioned in the paper, we collected and v
 To reproduce the results from the paper, please follow the configurations provided below:
 
 ### **Model Configuration：**
+```
 python -u EEGclassify.py --rand_guess 0 --lr1 5e-4 --epoch 100 --layer 1 --pooling mean --dataset imagine_decode --sub "01" --cls 39 --dropout1 0.5 --dropout2 0.5 --feel1 20 --feel2 10 --subset_ratio 1
-
+```
 ### **SBATCH Parameters:**
 We ran our code on a SLURM cluster server. The following details may not be critical for reproducing the results presented in the paper, but they are provided here for reference if needed.
 ```bash
