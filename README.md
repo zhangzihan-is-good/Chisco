@@ -23,9 +23,10 @@ We ran our code on a SLURM cluster server. The following details may not be crit
 #SBATCH -N 1                                  # Request 1 node
 #SBATCH --ntasks-per-node=1                   # 1 process per node
 #SBATCH --cpus-per-task=4                     # Use 4 CPU cores per task
-#SBATCH --gres=gpu:a100-pcie-40gb:1           # Request 1 A100 GPU
+#SBATCH --gres=gpu:a100-pcie-80gb:1           # Request 1 A100 GPU
 #SBATCH --mem=100G                            # Allocate 100GB memory
 source ~/.zshrc
+```
 
 ## **Citation**
 
@@ -43,4 +44,4 @@ source ~/.zshrc
   url = {https://doi.org/10.1038/s41597-024-04114-1},
   issn = {2052-4463}
 }
-
+```
